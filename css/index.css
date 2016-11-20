@@ -1,0 +1,153 @@
+html, body {
+    width: 98%;
+    height: 98%;
+}
+
+* {
+    font-family: 'Microsoft JhengHei','PT Sans  Narrow','Source Han Sans TWHK',sans-serif;
+}
+
+#talk {
+	display: inline-block;
+    position: relative;
+	margin-right: 10px;
+	border-color: blue;
+	border-radius: 5px;
+	left: 5%;
+    width: 80%;
+    height: 12%;
+    resize: none;
+}
+
+#sub {
+	display: inline-block;
+    position: relative;
+	left: 5%;
+    font-size: X-large;
+    color: white;
+    background-color: #6A7FF6;
+    border-radius: 5px;
+}
+
+#sub img {
+	max-width: 80px;
+	max-height: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#messages {
+    height: 90%;
+    margin: auto 0;
+    overflow-y: scroll;
+}
+
+#for {
+	position: fixed;
+	bottom: 0%;
+	background-color: white;
+	width: 100%;
+	padding-bottom: 2%;
+}
+
+.text {
+    margin: 1% 2% 1% 3%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: #9A9AF9;
+    color: white;
+    font-size: medium;
+    max-width: 30%;
+}
+.me {
+    display: inline-block;
+    margin: 1% 2% 1% 3%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: #7CCF7D;
+    color: white;
+    font-size: medium;
+    max-width: 30%;
+    text-align: left;
+}
+
+#content {
+    margin: auto 0;
+    height: 100%;
+    width: 100%;
+}
+
+.frame-right {
+    max-height: auto;
+    max-width: 98%;
+    text-align: right;
+}
+
+.frame-left {
+    max-height: auto;
+    max-width: 98%;
+    text-align: left;
+}
+
+.info {
+    text-align: center;
+    font-size: small;
+    color: black; 
+}
+
+@media only screen and (max-width: 800px) {
+    #submit {
+        width: 8%;
+        height: 10%;
+        font-size: large;
+    }   
+}
+
+@media only screen and (max-width: 620px) {
+    #talk {
+        width: 78%;
+        height: 10%;
+    }
+
+    #submit {
+        width: 10%;
+        height: 10%;
+        font-size: normal;
+    }    
+}
+@media only screen and (max-width: 520px) {
+    #talk {
+        width: 76%;
+        height: 8%;
+    }
+
+    #submit {
+        width: 12%;
+        height: 8%;
+        font-size: small;
+    }    
+}
+@media only screen and (max-width: 355px) {
+    #talk {
+        width: 74%;
+        height: 8%;
+    }
+
+    #submit {
+        width: 14%;
+        height: 8%;
+        font-size: small;
+    }    
+}
+@media only screen and (max-width: 270px) {
+    #talk {
+        width: 72%;
+        height: 8%;
+    }
+
+    #submit {
+        width: 16%;
+        height: 8%;
+        font-size: x-small;
+    }    
+}
