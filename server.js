@@ -35,7 +35,8 @@ app.get("/", function(request, response){
 
 app.get('/all_restaurant', function(request,response){
     restaurant.selectAll().then(function(res){
-        response.send(res);
+        var send = {"restaurant" : res};
+        response.send(send);
     });
 });
 
