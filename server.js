@@ -40,19 +40,6 @@ app.get('/all_restaurant', function(request,response){
     });
 });
 
-/*app.get('/all_restaurant', function(request,response){
-    if (request.query.name === '' || request.query.name === undefined) {
-        response.sendFile(__dirname + "/register.html");
-        return false;
-    } else {
-        people_counter = people_counter + 1;
-        console.log("up");
-        name = request.query.name;
-        response.sendFile(__dirname + "/index.html");
-        return true;
-    }
-});*/
-
 server.listen(config.get('PORT'), config.get('IP'), function () {
     console.log( "Listening on " + config.get('IP') + ", port " + config.get('PORT')  )
 });
